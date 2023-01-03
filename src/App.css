@@ -1,0 +1,34 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  display: flex;
+}
+
+form{
+  width: 50%;
+  height: 221px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 10px; */
+  background-color:#8db580;
+}
+.main2{
+  width: 50%;
+  height: 205px;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background-color:#4b4a67;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+}
